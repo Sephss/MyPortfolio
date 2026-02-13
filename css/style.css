@@ -9,7 +9,7 @@
 html {
   scroll-behavior: smooth;
 }
-.small-name {
+.hero-text {
   text-align: center;
 }
 body {
@@ -324,4 +324,5 @@ section {
   justify-content: center;
   align-items: center;
 }
+
 
