@@ -272,6 +272,11 @@ section {
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 900px) {
+  .hero-text .small-name {
+    text-align: center; /* centers text horizontally */
+    display: block; /* ensures it's a block element */
+    margin: 0 auto; /* optional, for safety */
+  }
   .hero-container {
     flex-direction: column-reverse;
     text-align: center;
@@ -286,6 +291,11 @@ section {
 }
 
 @media screen and (max-width: 600px) {
+  .hero-text .small-name {
+    text-align: center; /* centers text horizontally */
+    display: block; /* ensures it's a block element */
+    margin: 0 auto; /* optional, for safety */
+  }
   .big-name {
     font-size: 2.5rem;
   }
@@ -322,3 +332,4 @@ section {
   justify-content: center;
   align-items: center;
 }
+
